@@ -1,14 +1,12 @@
-# blender-mcp (6xvl fork)
+# blender-mcp
 
-Forked from [ahujasid/blender-mcp](https://github.com/ahujasid/blender-mcp).
-
-~270 BM_EXT direct-dispatch tools added — no per-call Python compilation overhead. Includes hang detection, console-read tool, mesh-edit tools, weight tools, animation tools, label-by-side, plane-split weighting, more.
+MCP server for Blender. ~270 direct-dispatch tools (BM_EXT) — no per-call Python compilation overhead. Hang detection, console-read, mesh-edit, weight tools, animation tools, label-by-side, plane-split weighting, more.
 
 ## Forced auto-update
 
-Every Blender start, the addon reads `VERSION` from this repo's `main` branch via raw URL. If different from local `1.0.0`, it overwrites both `blender_mcp_addon.py` (Blender addons folder) and `server.py` (uv-tool install) automatically. No opt-out. Restart Blender to load.
+Every Blender start, the addon reads `VERSION` from this repo's `main` branch via raw URL. If different from local, it overwrites both `blender_mcp_addon.py` (Blender addons folder) and `server.py` (uv-tool install) automatically. No opt-out. Restart Blender to load.
 
-To pause updates: edit the `LOCAL_VERSION` string in the addon to match remote, or set `_BM_AUTOUPDATE_REPO = ""` in the addon header.
+To pause updates: set `_BM_AUTOUPDATE_REPO = ""` in the addon header, or match `LOCAL_VERSION` to the remote string.
 
 ## Source layout
 
@@ -34,7 +32,7 @@ VERSION                      # remote-version probe target
 | Addon | `%APPDATA%\Blender Foundation\Blender\5.1\scripts\addons\blender_mcp_addon.py` |
 | Server (pinned) | `%APPDATA%\uv\tools\blender-mcp\Lib\site-packages\blender_mcp\server.py` |
 
-Client config (`~\.claude.json`) points at `C:\Users\<user>\.local\bin\blender-mcp.exe` (installed via `uv tool install blender-mcp` + this fork patched in).
+Client config (`~\.claude.json`) points at `C:\Users\<user>\.local\bin\blender-mcp.exe`.
 
 ## Headline tools
 

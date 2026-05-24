@@ -1,5 +1,4 @@
-# Code created by Siddharth Ahuja: www.github.com/ahujasid © 2025
-# Fork + extensions by 6xvl — https://github.com/6xvl/blender-mcp
+# blender-mcp — 6xvl — https://github.com/6xvl/blender-mcp
 
 # ============================================================
 # BM_EXT FORCED AUTO-UPDATE
