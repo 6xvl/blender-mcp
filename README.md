@@ -151,7 +151,7 @@ Ask things like: *"List every armature and its bones"*, *"Bend the elbow 90° on
 | **Export** | `bm_export_fbx`, `bm_export_format` (OBJ/GLB/GLTF/DAE) |
 | **Maintenance** | `bm_force_mode_set`, `bm_reload_addon` |
 
-Once connected, call `bm_list` for objects and ask your assistant for the full tool list — it has them all loaded.
+Full tool catalog with signatures + docstrings: **[docs/tools_blender_mcp.md](docs/tools_blender_mcp.md)** (auto-generated from `server.py`). Once connected, call `bm_list` for scene objects and ask your assistant for tool details.
 
 ---
 
