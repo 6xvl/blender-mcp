@@ -2,10 +2,9 @@
 
 **Connect AI assistants like Claude, Codex, and Gemini to Blender.**
 
-[![GitHub](https://img.shields.io/badge/github-6xvl%2Fblender--mcp-blue?logo=github)](https://github.com/6xvl/blender-mcp)
-![Blender](https://img.shields.io/badge/blender-3.0+-orange?logo=blender)
-![Platform](https://img.shields.io/badge/platform-win%20%7C%20macOS%20%7C%20linux-lightgrey)
-![License](https://img.shields.io/badge/license-MIT-green)
+[![Stars](https://img.shields.io/github/stars/6xvl/blender-mcp?style=flat&logo=github)](https://github.com/6xvl/blender-mcp/stargazers)
+[![Issues](https://img.shields.io/github/issues/6xvl/blender-mcp?style=flat&logo=github)](https://github.com/6xvl/blender-mcp/issues)
+[![Last Commit](https://img.shields.io/github/last-commit/6xvl/blender-mcp?style=flat&logo=github)](https://github.com/6xvl/blender-mcp/commits/main)
 
 ---
 
